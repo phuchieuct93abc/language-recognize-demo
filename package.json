@@ -1,0 +1,42 @@
+{
+  "name": "language-recognizer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "run": "npm-run-all --parallel start serve",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0-rc.1",
+    "@types/jquery": "^3.3.17",
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "jquery": "^3.3.1",
+    "modernizr": "^3.6.0",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "vue": "^2.5.17",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1",
+    "vue-socket.io": "^2.1.1-b",
+    "vuetify": "^1.3.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-typescript": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "npm-run-all": "^4.1.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "typescript": "^3.0.0",
+    "vue-cli-plugin-vuetify": "^0.3.0",
+    "vue-template-compiler": "^2.5.17",
+    "vuetify-loader": "^1.0.5"
+  }
+}
